@@ -10,7 +10,7 @@ function Materi1() {
     const [strength, setStrength] = useState(0);
     const notify = () => {
         toast.success('� Berhasil Tersubmit!', {
-            position: toast.POSITION.TOP_RIGHT,
+            position: "top-right",
             theme: 'dark',
         });
     };
